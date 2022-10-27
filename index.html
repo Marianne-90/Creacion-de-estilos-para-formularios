@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h3>Regístrate en los formularios</h3>
+    <div class="buttons">
+    <button class="google-btn">
+      <picture>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" alt="logo google"></img>
+      </picture>
+      <span>Registrarse con Google</span>
+    </button>
+
+    <button class="twitter-btn">
+      <picture>T</picture>
+    </button>
+  </div>
+    <div class="separator">
+      <hr>
+      <span>Or...</span>
+      <hr>
+    </div>
+    <form action="" method=""> 
+      
+      <div class="section-inputs">
+        <label for="name">
+        <span>Nombre</span>
+        <input type="text" id="name" name="name" placeholder="Nombre" required>
+        </label>
+
+        <label for="username">
+          <span>Usuario </span>
+          <input type="text" id="username" name="username" placeholder="Usuario" required>
+        </label>
+      </div>
+      
+        <label for="mail">
+          <span>Correo </span>
+          <input type="email" id="mail" name="mail" placeholder="correo" required>
+        </label>
+
+        <label for="password">
+          <span>Contraseña </span>
+          <input type="password" id="password" name="password" placeholder="6+ caracteres" required>
+        </label> 
+        
+        <label class="checkbox-label" for="checkbox">
+        <input type="checkbox" id="checkbox" name="checkbox" checked>
+        <span>Acepto las condiciones y aviso legal </span> </label>
+        <button type="submit" class="submit-btn">
+          Crear Cuenta
+        </button>
+
+      </div>
+    </form>
+
+  </div>
+</body>
+
+</html>
